@@ -1,6 +1,6 @@
 package main
 
-// #cgo LDFLAGS: -lfoo
+// #cgo LDFLAGS: -L. -lfoo
 // #include "foo.h"
 import "C"
 
